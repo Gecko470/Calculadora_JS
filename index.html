@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div id="container">
+            <table>
+                <tr>
+                    <td colspan="4">
+                        <div id="divPantalla">0</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td onclick="ac()" class="operaciones">AC</td>
+                    <td onclick="borr()" class="operaciones"><i class="fas fa-backspace"></i></td>
+                    <td id="%" onclick="op(id)" class="operaciones"><i class="fas fa-percent"></i></td>
+                    <td id="/" onclick="op(id)" class="operaciones"><i class="fas fa-divide"></i></td>
+                </tr>
+                <tr>
+                    <td id="7" onclick="escribir(id)">7</td>
+                    <td id="8" onclick="escribir(id)">8</td>
+                    <td id="9" onclick="escribir(id)">9</td>
+                    <td id="x" onclick="op(id)" class="operaciones"><i class="fas fa-times"></i></td>
+                </tr>
+                <tr>
+                    <td id="4" onclick="escribir(id)">4</td>
+                    <td id="5" onclick="escribir(id)">5</td>
+                    <td id="6" onclick="escribir(id)">6</td>
+                    <td id="-" onclick="op(id)" class="operaciones"><i class="fas fa-minus"></i></td>
+                </tr>
+                <tr>
+                    <td id="1" onclick="escribir(id)">1</td>
+                    <td id="2" onclick="escribir(id)">2</td>
+                    <td id="3" onclick="escribir(id)">3</td>
+                    <td id="+" onclick="op(id)" class="operaciones"><i class="fas fa-plus"></i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="0" onclick="escribir(id)">0</td>
+                    <td id="." onclick="escribir(id)">,</td>
+                    <td onclick="resultado()" class="operaciones"><i class="fas fa-equals"></i></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script async src="js/funciones.js"></script>
+    <script src="https://kit.fontawesome.com/dc6a9f42ed.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
