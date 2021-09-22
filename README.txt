@@ -14,5 +14,3 @@ Todavía queda un pequeño bug con esta tecla. Cuando borro con la tecla de borr
 no me deja escribir otro EN ESE NÚMERO, en cuanto presiono una tecla de operación ya funciona con normalidad. 
 Dificil corregirlo tal y como tengo planteado el código. Se me ocurre guardar caracter a caracter en un array y comprobar si
 hay un punto decimal pulsado o no, y si cuando borro lo borro o no.
-
-Mucho encaje de bolillos, jjaaajja
